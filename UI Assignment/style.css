@@ -1,0 +1,504 @@
+html, body {
+    height:100%;
+    min-width: 600px;
+    background: #f5f5f5;
+}
+
+/*--------------------Top Bar---------------------*/
+
+#top-bar-container {
+    width: 100%;
+    background-color: #202020;
+    height: 9%;
+    min-height: 60px;
+    border: 1px solid #323639;
+}
+
+.top-bar-sections {
+    float: left;
+    height: 100%;
+    border-right: 1px solid #555555; 
+}
+
+.down-arrow-top {
+    width: 12px;
+    height: 12px;
+}
+
+#top-bar-first-section {
+    width: 25%;
+}
+
+#user-icon-left {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: calc(50% - 20px);
+    left: 15px;
+}
+
+#top-bar-username {
+    color: white;
+    position: relative;
+    top: calc(50% - 20px);
+    left: 30px;
+}
+
+#top-bar-username:hover {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+#top-bar-first-section .down-arrow-top {
+    float: right;
+    position: relative;
+    top: calc(50% - 6px);
+    right: 20px;
+}
+
+#top-bar-second-section {
+    width: 49%;
+    border: 0;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+}
+
+#top-bar-third-section {
+    width: 9%;
+    border: 0;
+}
+
+#top-bar-fourth-section {
+    width: 9%;
+}
+
+.top-bar-text {
+    color: white;
+    margin: 2% 0 2% 0;
+    font-size: 90%;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.top-bar-text:hover {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+#top-bar-third-section .down-arrow-top {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+#top-bar-fourth-section .down-arrow-top {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+#top-bar-fifth-section {
+    width: 8%;
+}
+
+#user-icon-right {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+}
+
+
+
+
+/*------------------Body Container----------------*/
+#body-container {
+    margin: 0;
+    padding: 0;
+    height: 91%;
+    clear: both;
+}
+
+
+
+/*------------------Nav Bar----------------*/
+#nav-bar-container {
+    width: 80px;
+    height: 100%;
+    float:left;
+    min-height: 600px;
+}
+
+#nav-bar {
+    background: #555555;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 100%;
+}
+
+.nav-button:hover {
+    text-decoration: none;
+}
+
+#nav-bar li {
+    background-color: #555555;
+    display: block;
+    height: 11.11%;
+    padding: 15px 0px;
+    color: #ebebeb;
+}
+
+#nav-bar li:hover {
+    background-color: #f5f5f5;
+    color: #555555;
+}
+
+.nav-icon {
+    width: 25px;
+    height: 25px;
+    display: block;  
+    margin: auto;
+}
+
+.nav-bar-label {
+    margin-top: 5px;
+    font-size: 70%;
+    text-align: center;
+}
+
+
+
+
+/*------------------Content Container----------------*/
+#content-container {
+    float: left;
+    background-color: #f5f5f5;
+    width: calc(100% - 80px);
+    height: 100%;
+    min-height: 700px;
+}
+
+/*------------------Content Top Row----------------*/
+#content-top-row {
+    height: 11.11%;
+    border: 1px solid #cccccc;
+}
+
+#directory-tree {
+    float: left;
+    width: 60%;
+    height: 100%; 
+
+}
+
+
+#directory-tree p {
+    font-size: 130%;
+    font-weight: 300;
+    padding: 20px;
+}
+
+#directory-tree p a {
+    color: #333333;
+}
+
+#directory-tree p a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+#directory-tree span {
+    font-size: 65%;
+    padding: 12px;
+    position: relative;
+    bottom: 3px;
+}
+
+#content-top-row-others {
+    float: right;
+    width: 380px;
+    height: 100%; 
+}
+
+#content-top-row-others span {
+    float: left;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px 15px;
+    font-size: 120%;
+    font-family: monospace;
+    color: #3dc1d9;
+}
+
+#return-workflow-button {
+    float: left;
+    padding: 5px 25px 5px 15px;
+    margin: 20px 3px 20px 10px;
+    border-radius: 5px;
+    border-color: #cccccc;
+    font-size: 85%;
+    color: #333333;
+    background-color: #eeeeee;
+}
+
+#content-top-row-others button:hover {
+    background-color: #ffffff;
+}
+
+#return-workflow-button img{
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 3px 10px 0px 0px;
+}
+
+#top-row-down-arrow-button {
+    float: left;
+    border-radius: 5px;
+    border-color: #cccccc;
+    padding: 3px 5px 3px 5px;
+    margin: 20px 0px;
+    background-color: #eeeeee;
+}
+
+#top-row-down-arrow-button img {
+    width: 15px;
+    height: 15px;
+}
+
+#gear-button {
+    float: left;
+    border-radius: 5px;
+    border-color: #cccccc;
+    padding: 3px 8px 3px 8px;
+    margin: 20px 20px;
+    background-color: #eeeeee;
+}
+
+#gear-button img {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+/*------------------Content Body----------------*/
+#content-body {
+    float: left;
+    width: calc(100% - 40px);
+    height: calc(88.89% - 20px);
+    background-color: white;
+    position: relative;
+    left: 20px;
+    box-shadow: 0px 2px 5px #cbcbcb;
+}
+
+#green-div {
+    float: left;
+    width: calc(50% - 16px);
+    height: 50px;
+    background-color: #43c78a;
+    color: white;
+    font-size: 80%;
+    font-weight: 100;
+    padding: 5px;
+    margin: 15px 1px 15px 15px;
+    
+}
+
+#green-div img {
+    float: right;
+    width: 15px;
+    height: 15px;
+}
+
+#blue-div {
+    float: left;
+    width: calc(50% - 16px);
+    height: 50px;
+    background-color: #67d3e4;
+    color: white;
+    font-size: 80%;
+    padding: 12px;
+    margin: 15px 15px 15px 1px;
+    text-align: center;
+}
+
+#blue-div img {
+    width: 15px;
+    height: 15px;
+}
+
+
+#test-div {
+    clear: left;
+    height: 25px;
+    padding: 10px 15px 5px 15px;
+}
+
+
+#test-div p {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #777777; 
+    line-height: 0.1em;
+    color: #777777;
+} 
+
+#test-div p span { 
+    background:#ffffff; 
+    padding:0 10px; 
+}
+
+.content-row-using-details {
+    width: calc(100% - 30px);
+    height: 50px;
+    padding: 10px;
+    margin: 5px 15px 5px 15px;
+    border: 1px solid #e3e3e3;
+    border-left: 5px solid #43c78a; 
+}
+
+.content-row-using-details summary::-webkit-details-marker {
+    display:none
+}
+
+.content-row-using-details summary:after {
+    background: url(img/toggle-arrow-closed.png) center no-repeat;
+    float: left;
+    height: 25px;
+    width: 25px;
+    content: " ";
+}
+
+.content-row-using-details[open] summary:after {
+    background: url(img/toggle-arrow-opened.png) center no-repeat;
+}
+
+
+.content-row-using-details summary {
+    font-weight: 700;
+    font-size: 90%;
+    color: #555555;
+    position: relative;
+    top: 2px;
+    margin-left: 10px;
+}
+
+.content-row-using-details summary span {
+    margin-left: 15px;
+}
+
+.content-row-using-details summary span:last-of-type {
+    font-weight: 100;
+    float: right;
+}
+
+.content-row-using-details div {
+    font-family: monospace;
+    background-color: #202020;
+    color: white;
+    padding: 15px 10px 1px 10px;
+    margin: 10px 0px 0px 15px;
+}
+
+.content-row-using-details div span:first-of-type {
+    color: white;
+    font-weight: 100;
+    float: right;
+}
+
+#first-row[open] {
+    height: 125px;
+}
+
+#second-row[open] {
+    height: 125px;
+}
+
+#third-row[open] {
+    height: 125px;
+}
+
+#fourth-row[open] {
+    height: 160px;
+}
+
+#fifth-row[open] {
+    height: 125px;
+}
+
+
+
+/*------------------Responsive - less than 1200px----------------*/
+@media (max-width: 1200px) {
+    
+    #top-bar-first-section {
+        width: 30%;
+    }
+    
+    #top-bar-second-section {
+        width: 10%;
+    }
+    
+    #top-bar-third-section {
+        width: 25%;
+    }
+    
+    #top-bar-fourth-section {
+        width: 25%;
+    }
+    
+    #top-bar-fifth-section {
+        width: 10%;
+    }
+    
+    #content-body {
+        clear: left;
+    }
+}
+
+@media (max-width: 1120px) {
+    #directory-tree {
+        width: 70%;
+    }
+    
+    #content-top-row-others {
+        clear: left;
+        width: 100%;
+    }
+    
+    #directory-tree p {
+        font-size: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
